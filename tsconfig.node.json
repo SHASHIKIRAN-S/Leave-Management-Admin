@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"], 
+    "module": "ESNext",
+    "skipLibCheck": true,
+  
+     /* Bundler mode */
+     "moduleResolution": "bundler",
+     "allowImportingTsExtensions": true,
+     "isolatedModules": true,
+     "moduleDetection": "force",
+     "noEmit": true,
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true // Don't forget this one if it's missing!
+  },
+  "include": ["src"]
+  // Or "include": ["vite.config.ts"] as in your last message
+}

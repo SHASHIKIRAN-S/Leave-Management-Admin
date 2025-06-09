@@ -1,0 +1,14 @@
+.progress-bar {
+    flex: none;
+    width: var(--progress-width, 0%);
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    justify-content: center;
+    border-radius: 0.25rem;
+    height: 100%;
+  }
+  
